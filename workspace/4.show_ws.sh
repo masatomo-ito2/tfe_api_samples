@@ -8,4 +8,4 @@ if [ $# -ne 2 ]
 		exit 1
 fi
 
-curl --header "Authorization: Bearer ${TOKEN}"   --header "Content-Type: application/vnd.api+json"   https://${TFE_SERVER}/api/v2/organizations/${1}/workspaces/${2}
+curl --header "Authorization: Bearer ${TOKEN}" --header "Content-Type: application/vnd.api+json" https://${TFE_SERVER}/api/v2/organizations/${1}/workspaces/${2}

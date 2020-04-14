@@ -1,0 +1,27 @@
+{
+  "data": {
+    "id": "cv-RopxxxXWJR1QLq8D",
+    "type": "configuration-versions",
+    "attributes": {
+      "auto-queue-runs": true,
+      "error": null,
+      "error-message": null,
+      "source": "tfe-api",
+      "status": "pending",
+      "status-timestamps": {},
+      "changed-files": [],
+      "upload-url": "https://archivist.terraform.io/v1/object/dmF1bHQ6djE6MVZRc0JpbVY2b0tuV0dydmVXSVVyRzJ2VEZuSmdBRmo2QWM5TmNGdFRVK29tTHRKdU9CdGJsWjNablR0ZWsrQVEvQkxHbHFnY3lRVUJ1NEt4dHhnWjVRN29BVXQrL0w1L0Y1eE1IeFhtY3hZUkRMaFYvUW1QUG51MzVkeUt4eDZ2U3VQc09jVXlWQ1YrZ0c1WHRzUTR1M0hJRU4rZkRna1k0WGJqaCt0ZFhFRTdaS3EyREJnTzI0YkFyQ0FqbFNzdTg5QnhPTVFFdWRsei95N2NlaERvUkxQY0dacVBEN25KOXFkbFRQeUxLV2hPNWp1ajJvaG1CRlVQZmJZZzR4cHlLc25hOGFZbGFBSWgyMFVNSzRPTGtvZkpkRGhzdTg9"
+    },
+    "relationships": {
+      "ingress-attributes": {
+        "data": null,
+        "links": {
+          "related": "/api/v2/configuration-versions/cv-RopxxxXWJR1QLq8D/ingress-attributes"
+        }
+      }
+    },
+    "links": {
+      "self": "/api/v2/configuration-versions/cv-RopxxxXWJR1QLq8D"
+    }
+  }
+}
