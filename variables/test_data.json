@@ -1,0 +1,58 @@
+{
+  "data": [
+    {
+      "id": "var-XTHy5zMAa7nY1Vi3",
+      "type": "vars",
+      "attributes": {
+        "key": "some_key",
+        "value": "some_value",
+        "sensitive": false,
+        "category": "terraform",
+        "hcl": false,
+        "created-at": "2020-04-14T04:15:17.446Z",
+        "description": "some description"
+      },
+      "relationships": {
+        "configurable": {
+          "data": {
+            "id": "ws-ajLLjugn2ngooBV9",
+            "type": "workspaces"
+          },
+          "links": {
+            "related": "/api/v2/organizations/masa_org/workspaces/tfe_api_test"
+          }
+        }
+      },
+      "links": {
+        "self": "/api/v2/workspaces/ws-ajLLjugn2ngooBV9/vars/var-XTHy5zMAa7nY1Vi3"
+      }
+    },
+    {
+      "id": "var-anvD4o7wpmGnAZki",
+      "type": "vars",
+      "attributes": {
+        "key": "some_key2",
+        "value": "some_value",
+        "sensitive": false,
+        "category": "terraform",
+        "hcl": false,
+        "created-at": "2020-04-14T04:22:35.888Z",
+        "description": "some description"
+      },
+      "relationships": {
+        "configurable": {
+          "data": {
+            "id": "ws-ajLLjugn2ngooBV9",
+            "type": "workspaces"
+          },
+          "links": {
+            "related": "/api/v2/organizations/masa_org/workspaces/tfe_api_test"
+          }
+        }
+      },
+      "links": {
+        "self": "/api/v2/workspaces/ws-ajLLjugn2ngooBV9/vars/var-anvD4o7wpmGnAZki"
+      }
+    }
+  ]
+}
