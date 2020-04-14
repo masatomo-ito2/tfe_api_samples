@@ -1,0 +1,49 @@
+{
+  "data": [
+    {
+      "id": "cv-dRU3ajaW1GEYSFXa",
+      "type": "configuration-versions",
+      "attributes": {
+        "auto-queue-runs": true,
+        "error": null,
+        "error-message": null,
+        "source": "github",
+        "status": "uploaded",
+        "status-timestamps": {},
+        "changed-files": [
+          "resource.tf"
+        ]
+      },
+      "relationships": {
+        "ingress-attributes": {
+          "data": {
+            "id": "ia-AxXkkcnErykJMXr6",
+            "type": "ingress-attributes"
+          },
+          "links": {
+            "related": "/api/v2/configuration-versions/cv-dRU3ajaW1GEYSFXa/ingress-attributes"
+          }
+        }
+      },
+      "links": {
+        "self": "/api/v2/configuration-versions/cv-dRU3ajaW1GEYSFXa"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://app.terraform.io/api/v2/workspaces/ws-kbd5BS2TXZCRycT1/configuration-versions?page%5Bnumber%5D=1&page%5Bsize%5D=1",
+    "first": "https://app.terraform.io/api/v2/workspaces/ws-kbd5BS2TXZCRycT1/configuration-versions?page%5Bnumber%5D=1&page%5Bsize%5D=1",
+    "prev": null,
+    "next": "https://app.terraform.io/api/v2/workspaces/ws-kbd5BS2TXZCRycT1/configuration-versions?page%5Bnumber%5D=2&page%5Bsize%5D=1",
+    "last": "https://app.terraform.io/api/v2/workspaces/ws-kbd5BS2TXZCRycT1/configuration-versions?page%5Bnumber%5D=39&page%5Bsize%5D=1"
+  },
+  "meta": {
+    "pagination": {
+      "current-page": 1,
+      "prev-page": null,
+      "next-page": 2,
+      "total-pages": 39,
+      "total-count": 39
+    }
+  }
+}
