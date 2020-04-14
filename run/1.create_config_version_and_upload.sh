@@ -18,5 +18,8 @@ UPLOAD_URL=$(curl --header "Authorization: Bearer ${TOKEN}" --header "Content-Ty
 
 echo $UPLOAD_URL
 
+# create tar ball
+tar cvfz main.tar.gz -C tf_files .
+
 curl --header "Authorization: Bearer ${TOKEN}" --header "Content-Type: application/vnd.api+json" --request PUT --data-binary @main.tar.gz ${UPLOAD_URL}
 
